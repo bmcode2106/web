@@ -1,10 +1,15 @@
 import { HeroSection } from "@/components/hero-section";
+import { PlayerDemoSection } from "@/components/player-demo-section";
 
 export default function Home() {
   return (
       <main>
             <HeroSection />
-                  {/* Komponen lain akan ditambahkan di sini, seperti PlayerDemoSection */}
-                      </main>
-                        );
-                        }
+                  <PlayerDemoSection />
+                        {/* 
+                                DocsSection, FAQSection, and other future components 
+                                        will be added below this line.
+                                              */}
+                                                  </main>
+                                                    );
+                                                    }
